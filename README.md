@@ -2,7 +2,7 @@
 
 **NexusAuth** is a premium, feature-rich authentication starter kit built with modern web technologies. It provides a robust foundation for building secure applications with features like JWT multi-token rotation, OTP verification, Google OAuth integration, and a clean hexagonal-inspired architecture.
 
-## 🚀 Key Features
+##  Key Features
 
 -   **Multi-Strategy Auth**: Support for Email/Password and Google OAuth.
 -   **OTP Verification**: Secure registration flow with email-based OTP using Redis for TTL management.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 -   **Runtime**: Node.js
@@ -38,7 +38,7 @@
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 -   Node.js (v18+)
@@ -88,7 +88,7 @@ npm run dev
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ### Backend Structure
 -   `src/controller`: Handles HTTP requests and responses.
@@ -104,7 +104,7 @@ npm run dev
 
 ---
 
-## 🔒 Security Implementation
+##  Security Implementation
 
 -   **JWT Rotation**: When the access token expires (15m), the frontend interceptor automatically calls the refresh endpoint to get new tokens using the refresh token (7d) stored in a secure cookie.
 -   **Logout**: Functional logout clears all cookies on both client and server sides.
@@ -112,9 +112,9 @@ npm run dev
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the ISC License.
 
 ---
 
-**Developed with ❤️ by [Your Name/Github]**
+**Developed with ❤️ by [Sharafath /https://github.com/sharafath11/]**
