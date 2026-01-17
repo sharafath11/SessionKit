@@ -11,7 +11,7 @@ import {
   throwError,
 } from "../utils/response";
 import { validateBodyFields } from "../utils/validateRequest";
-import { clearTokens, decodeToken, refreshAccessToken, setTokensInCookies } from "../utils/jwtToken";
+import { clearTokens, decodeToken, refreshAccessToken, setTokensInCookies } from "../lib/jwtToken";
 
 @injectable()
 export class AuthController implements IAuthController {

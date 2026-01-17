@@ -9,7 +9,7 @@ import { MESSAGES } from "../const/messages";
 import { UserResponseMapper } from "../dtos/user/userResponseMapper";
 import { IUserDto, IUserLoginDTO } from "../dtos/user/IUserDto";
 
-import { generateAccessToken, generateRefreshToken } from "../utils/jwtToken";
+import { generateAccessToken, generateRefreshToken } from "../lib/jwtToken";
 import { generateOtp, OTP_TTL_SECONDS } from "../utils/otp.util";
 import { redis } from "../utils/redis";
 import { sendEmailOtp } from "../utils/mail.util";

@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { sendResponse } from "../utils/response";
 import { StatusCode } from "../enums/statusCode";
 import { MESSAGES } from "../const/messages";
-import { verifyAccessToken } from "../utils/jwtToken";
+import { verifyAccessToken } from "../lib/jwtToken";
 import { JsonWebTokenError, TokenExpiredError } from "jsonwebtoken";
 import { TokenPayload } from "../types/authTypes";
 
