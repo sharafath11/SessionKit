@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import express from "express";
 import "./core/di/container"; 
-import authRoutes from "./routes/authRoutes";
+import authRoutes from "./routes/auth.Routes";
 import { connectDB } from "./config/database";
 import dotenv from "dotenv";
 import cors from "cors"

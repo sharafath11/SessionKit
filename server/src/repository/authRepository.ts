@@ -1,5 +1,5 @@
 import { IAuthRepository } from "../core/interfaces/repository/IAuthRepository";
-import { UserModel } from "../models/userModel";
+import { UserModel } from "../models/user.Model";
 import { IUser } from "../types/userTypes";
 import { BaseRepository } from "./baseRepository";
 
